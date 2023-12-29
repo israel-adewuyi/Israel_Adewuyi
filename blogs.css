@@ -1,0 +1,27 @@
+/* Import your fonts or define additional styles as needed */
+
+:root {
+    /* Maintain your color variables */
+    --primary-color: #a855f7;
+    --primary-color-dark: #9333ea;
+    --secondary-color: #ca8a04;
+    --text-dark: #1f2937;
+    --text-light: #6b7280;
+    --extra-light: #faf5ff;
+    --max-width: 1200px;
+}
+  
+body {
+    /* Maintain your body styles or override as needed */
+    font-family: "Poppins", sans-serif;
+}
+  
+  /* Additional styles specific to the blogs page */
+.blogs-container {
+    max-width: var(--max-width);
+    margin: auto;
+    padding: 2rem;
+}
+  
+  /* Define styles for your blog entries as needed */
+  
