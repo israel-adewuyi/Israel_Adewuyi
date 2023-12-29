@@ -22,6 +22,16 @@ body {
     margin: auto;
     padding: 2rem;
 }
+
+.section__container {
+    min-height: 100vh;
+    max-width: var(--max-width);
+    margin: auto;
+    padding: 7rem 1rem; /* Adjust the top padding as needed */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+  }
   
   /* Define styles for your blog entries as needed */
   
